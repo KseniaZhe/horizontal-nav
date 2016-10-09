@@ -30,10 +30,10 @@ html {
 }
 
 h1 {
+  font-family: "Bevan", cursive;
   font-size: 2.3rem;
   color: #fff;
   margin: 0;
-  font-family: "Bevan", sans-serif;
 }
 
 body {
