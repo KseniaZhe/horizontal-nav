@@ -23,6 +23,7 @@ html {
   padding: .6em;
   border-radius: 5px;
   color: #fff;
+  margin-bottom: 0.3em;
 }
 
 .nav a:hover {
