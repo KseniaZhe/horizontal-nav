@@ -7,25 +7,35 @@ html {
 }
 
 html {
-  line-height: 1.5
+  line-height: 1.5;
 }
 
 .nav li {
   background-color: #713837;
   display: inline-block;
-  list-style-type: none;
+  padding: .6em;
+  border-radius: 5px;
 }
 
 .nav a {
   font-family: sans-serif;
   text-decoration: none;
-  color: #fff
+  font-size: 1.2rem;
+
+  color: #fff;
+}
+
+.nav a:hover {
+  padding: .6em;
+  border-radius: 5px;
+  background-color: #f33;
 }
 
 h1 {
+  font-size: 2.3rem;
   color: #fff;
   margin: 0;
-  font-family: "Bevan", cursive;
+  font-family: "Bevan", sans-serif;
 }
 
 body {
@@ -36,8 +46,8 @@ body {
 header {
   text-align: center;
   background-color: #79756f;
-  margin: 0rem;
-  padding: 2rem;
+  margin: 0;
+  padding: 0.75em;
   border-width: 3px;
   border-color: #595652;
   border-right-color: #79756f;
@@ -45,6 +55,8 @@ header {
   border-style: solid;
 }
 
-.nav {
-
+nav ul {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
 }
